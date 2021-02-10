@@ -1,5 +1,9 @@
-example=input("4*100-69?")
-ex2=int(311)
-print("Ваш ответ={0}".format(example))
-print("Правильный ответ={0}".format(ex2))
+# !/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
+if __name__ == '__main__':
+  
+    Answer = int ( input ( "Решить пример 4*100-69="
+                   "(Ваш ответ ?)" ))
+    print ( "Правильный ответ" , 4 * 100 - 69 )
+    print ( "Ваш ответ" , Answer )
